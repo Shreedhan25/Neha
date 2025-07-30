@@ -1,6 +1,10 @@
 // Import the data to customize and insert them into page
 const fetchData = () => {
-  fetch("https://saptesh27.github.io/Manu/customize.json")
+  // fetch("https://github.com/Shreedhan25/Neha/blob/main/customize.json")
+  // fetch("https://github.com/Shreedhan25/Neha/blob/main/customize.json")
+  fetch("https://raw.githubusercontent.com/Shreedhan25/Neha/main/customize.json")
+
+
     .then(data => data.json())
     .then(data => {
       dataArr = Object.keys(data);
